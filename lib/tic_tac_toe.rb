@@ -85,7 +85,7 @@ class TicTacToe
     full? && !won?
   end
 
-  def over?()
+  def over?(board)
     won? || draw?
   end
 
