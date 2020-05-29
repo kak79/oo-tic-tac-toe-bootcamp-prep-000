@@ -81,11 +81,11 @@ class TicTacToe
     end 
   end
 
-  def draw?()
+  def draw?(board)
     full? && !won?
   end
 
-  def over?
+  def over?()
     won? || draw?
   end
 
